@@ -19,7 +19,6 @@ export interface Nav {
       label?: string;
       url?: string;
     }[];
-    buttons: CTA[];
   };
 }
 
@@ -35,59 +34,42 @@ export default function Header({
       { label: "About us", url: "/" },
       { label: "Princing", url: "/" },
       { label: "Contact", url: "/" },
-    ],
-    buttons: [
-      { id: "change-me-1", href: "/", text: "Change me", outline: false },
-      { id: "change-me-2", href: "/", text: "Change me", outline: true },
-    ],
+    ]
   },
 }: Nav) {
   return (
-    <nav class="drawer drawer-end">
+    <nav class="drawer drawer-end md:shadow-headerShadow px-">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
-      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
+      <div class="drawer-content lg:py-4 flex gap-8 items-center justify-between py-[5px]">
         <a href="/">
-          <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
+          <Image class="lg:hidden" src={logo.src || ""} width={142} height={35} alt={logo.alt} />
+          <Image class="hidden lg:block ml-5" src={logo.src || ""} width={163} height={40} alt={logo.alt} />
         </a>
 
-        <div class="hidden items-center justify-between lg:flex w-full">
+        <div class="hidden items-center justify-between lg:flex">
           <ul class="flex">
             {navigation.links.map((link) => (
               <li>
                 <a
                   href={link.url}
                   aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
+                  class="link no-underline hover:underline p-5 text-secondary"
                 >
                   {link.label}
                 </a>
               </li>
             ))}
           </ul>
-          <ul class="flex gap-3">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
-                }`}
-              >
-                {item?.text}
-              </a>
-            ))}
-          </ul>
+
         </div>
 
         <label
           htmlFor="mobile-drawer-nav"
-          class="flex lg:hidden btn btn-ghost drawer-button"
+          class="flex lg:hidden btn btn-ghost drawer-button p-0"
         >
-          <Icon id="Bars3" size={24} strokeWidth={0.1} />
+          <Icon id="Bars3" class="bar-filter" size={24} strokeWidth={0.1} />
         </label>
       </div>
 
@@ -100,41 +82,30 @@ export default function Header({
           class="drawer-overlay"
         />
 
-        <div class="flex flex-col gap-8 min-h-full w-80 bg-base-100 text-base-content">
-          <a class="p-4" href="/">
-            <Image
-              src={logo.src || ""}
-              width={100}
-              height={28}
-              alt={logo.alt}
-            />
-          </a>
-
-          <ul class="menu">
+        <div class="flex flex-col gap-8 min-h-full w-full bg-base-100 text-base-content bg-secondary">
+          <div class="text-base-300 text-[24px] ml-auto mr-[17px] mt-[17px]"><label
+            htmlFor="mobile-drawer-nav"
+            aria-label="close sidebar"
+            class="drawer-overlay"
+          >          <Icon
+              class="fill-white"
+              size={22}
+              id="CloseIcon"
+            /></label></div>
+          <ul class="menu p-0">
             {navigation?.links.map((link) => (
               <li>
-                <a href={link.url} aria-label={link.label}>
+                <a class="text-base-300 text-[21px] leading-[120%] font-medium pl-[20px] py-[11px]" href={link.url} aria-label={link.label}>
                   {link.label}
                 </a>
               </li>
             ))}
           </ul>
 
-          <ul class="p-4 flex items-center gap-3">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
-                }`}
-              >
-                {item?.text}
-              </a>
-            ))}
-          </ul>
+          <div class="flex gap-[10px] justify-center items-center">
+            <Icon class="fill-white" id="MiniLinkedin" size={13} />
+            <Icon class="fill-white" id="Feed" size={13} />
+          </div>
         </div>
       </aside>
     </nav>
