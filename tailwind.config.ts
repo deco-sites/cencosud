@@ -16,8 +16,14 @@ export default {
           "100%": { transform: "translateX(-50%)" },
         },
       },
+      fontFamily: {
+        opensans: ["Open Sans", "sans-serif"],
+      },
       boxShadow: {
         "headerShadow": "0 2px 5px 0 rgba(0,0,0,0.1)",
+      },
+      listStyleType: {
+        square: "square",
       },
     },
   },
