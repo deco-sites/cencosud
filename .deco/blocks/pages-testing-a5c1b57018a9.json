@@ -31,6 +31,22 @@
       }
     },
     {
+      "__resolveType": "site/sections/TextWithSlider.tsx",
+      "text": "Invertimos <br> en el futuro <br> del retail",
+      "interval": 3000,
+      "slides": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/39c83068-bd14-4cc3-97c5-e403ea7194c0"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/3d84fd17-def4-4db1-adb2-df3408372e69"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/8f297a6c-54f3-4eca-b714-eab07509d351"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Click here to tweak this text however you want.</p>",
       "cta": [],
@@ -117,17 +133,29 @@
         "__resolveType": "website/loaders/fonts/googleFonts.ts",
         "fonts": [
           {
-            "variations": [],
+            "variations": [
+              {
+                "weight": "100"
+              },
+              {
+                "weight": "100"
+              }
+            ],
             "family": "Montserrat"
           },
           {
-            "variations": [],
+            "variations": [
+              {
+                "weight": "100"
+              }
+            ],
             "family": "Open Sans"
           }
         ]
       },
       "complementaryColors": {
-        "base-300": "#ffffff"
+        "base-300": "#ffffff",
+        "primary-content": "#F3F6FE"
       }
     }
   ],
