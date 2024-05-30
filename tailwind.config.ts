@@ -21,6 +21,7 @@ export default {
       },
       fontFamily: {
         opensans: ["Open Sans", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
       boxShadow: {
         "headerShadow": "0 2px 5px 0 rgba(0,0,0,0.1)",

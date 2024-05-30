@@ -55,7 +55,7 @@ export default function Header({
                 <a
                   href={link.url}
                   aria-label={link.label}
-                  class="link no-underline hover:underline p-5 text-secondary"
+                  class="font-medium link no-underline hover:underline p-5 text-secondary"
                 >
                   {link.label}
                 </a>
