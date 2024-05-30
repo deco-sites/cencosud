@@ -47,6 +47,14 @@
       ]
     },
     {
+      "__resolveType": "site/sections/TextWithButton.tsx",
+      "title": "QUIÉNES SOMOS",
+      "subtitle": "La unidad de Corporate Venturing de Cencosud",
+      "content": "Cencosud Ventures se enfoca en asociarse con las empresas de tecnología más innovadoras en las primeras etapas de su viaje.",
+      "buttonText": "Ver más",
+      "buttonUrl": "https://cencosud.vc/about-offer/"
+    },
+    {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Click here to tweak this text however you want.</p>",
       "cta": [],
@@ -129,33 +137,11 @@
         "error": "#d82c0d",
         "info": "#2e72d2"
       },
-      "font": {
-        "__resolveType": "website/loaders/fonts/googleFonts.ts",
-        "fonts": [
-          {
-            "variations": [
-              {
-                "weight": "100"
-              },
-              {
-                "weight": "100"
-              }
-            ],
-            "family": "Montserrat"
-          },
-          {
-            "variations": [
-              {
-                "weight": "100"
-              }
-            ],
-            "family": "Open Sans"
-          }
-        ]
-      },
+      "font": {},
       "complementaryColors": {
         "base-300": "#ffffff",
-        "primary-content": "#F3F6FE"
+        "primary-content": "#F3F6FE",
+        "info-content": "#1c00fc"
       }
     }
   ],
