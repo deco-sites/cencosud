@@ -38,11 +38,11 @@ export default function Header({
   },
 }: Nav) {
   return (
-    <nav class="drawer drawer-end md:shadow-headerShadow px-">
+    <nav class="drawer drawer-end md:shadow-headerShadow fixed top-0 left-0 w-full z-[500] bg-base-300">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
-      <div class="drawer-content lg:py-4 flex gap-8 items-center justify-between py-[5px]">
+      <div class="drawer-content px-4 lg:px-0 lg:py-4 flex gap-8 items-center justify-between py-[5px]">
         <a href="/">
           <Image class="lg:hidden" src={logo.src || ""} width={142} height={35} alt={logo.alt} />
           <Image class="hidden lg:block ml-5" src={logo.src || ""} width={163} height={40} alt={logo.alt} />

@@ -16,6 +16,9 @@ export default {
           "100%": { transform: "translateX(-50%)" },
         },
       },
+      screens: {
+        ss: "479px",
+      },
       fontFamily: {
         opensans: ["Open Sans", "sans-serif"],
       },
