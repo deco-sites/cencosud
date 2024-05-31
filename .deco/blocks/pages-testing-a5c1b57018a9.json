@@ -55,6 +55,33 @@
       "buttonUrl": "https://cencosud.vc/about-offer/"
     },
     {
+      "__resolveType": "site/sections/TextWithImage.tsx",
+      "title": "POTÉNCIATE CON NOSOTROS",
+      "subtitle": "Escala con uno de los retailers más grandes de las Americas",
+      "content": "Capitaliza 60 años de experiencia Cencosud.",
+      "image": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/066ce3b8-5d85-4827-af57-e7e043da5ac4"
+      },
+      "backgroundEffect": "bottom"
+    },
+    {
+      "__resolveType": "site/sections/TextWithImage.tsx",
+      "title": "CONTÁCTANOS",
+      "subtitle": "¿Quieres acelerar el futuro del retail?",
+      "content": "Escríbenos a través del siguiente formulario y nos pondremos en contacto contigo. ",
+      "image": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/c693e617-ad19-4bfe-88ce-a021ff0c7cea"
+      },
+      "imageReverse": true,
+      "textMobile": "left",
+      "button": {
+        "buttonUrl": "/contact",
+        "buttonText": "Contáctanos"
+      },
+      "showButton": true,
+      "backgroundEffect": "top"
+    },
+    {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Click here to tweak this text however you want.</p>",
       "cta": [],
