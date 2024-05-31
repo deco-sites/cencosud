@@ -23,13 +23,15 @@ interface Props {
         buttonText?: string;
         buttonUrl?: string;
     }
-    backgroundEffect?: "top" | "bottom";
+    backgroundEffect?: "top" | "bottom" | "both";
 }
 
 function TextWithImage({ title, subtitle, content, textMobile, image, imageReverse, showButton, button, backgroundEffect }: Props) {
     return (
-        <>{backgroundEffect === "top" ? <div class="bg-textwithimage bg-no-repeat bg-top-center bg-cover bg-[#F3F6FE] h-[150px]"></div> : ''}
-            <div class="bg-primary-content pt-[150px] relative">
+        <>{(backgroundEffect === "top" || backgroundEffect === "both") && (
+            <div class="bg-textwithimage bg-no-repeat bg-top-center bg-cover bg-[#F3F6FE] h-[150px]"></div>
+        )}
+            <div class="bg-primary-content pt-[60px] relative">
                 <div class={`px-[33px] lg:px-0 mx-auto min-h-[100vh] max-w-[550px] footer-container flex ${imageReverse ? 'flex-col-reverse md:flex-row-reverse' : 'flex-col md:flex-row'}  justify-center md:justify-between md:items-center`}>
                     {showButton && <a href={button?.buttonUrl} class="flex md:hidden justify-end items-center mr-auto max-w-[171px] min-w-[171px] mt-5 md:mt-10 mb-[20px] text-[18px] font-opensans font-bold py-[8px] px-5 text-info-content border-info-content border-2 border-solid">{button?.buttonText}
                         <Icon
@@ -60,7 +62,9 @@ function TextWithImage({ title, subtitle, content, textMobile, image, imageRever
 
                 </div>
             </div>
-            {backgroundEffect === "bottom" ? <div class="bg-textwithimage bg-no-repeat bg-top-center bg-cover bg-[#F3F6FE] h-[150px] rotate-180"></div> : ''}</>
+            {(backgroundEffect === "bottom" || backgroundEffect === "both") && (
+                <div class="bg-textwithimage bg-no-repeat bg-top-center bg-cover bg-[#F3F6FE] h-[150px] rotate-180"></div>
+            )}</>
     )
 }
 

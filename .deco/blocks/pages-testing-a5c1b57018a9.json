@@ -62,7 +62,7 @@
       "image": {
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/066ce3b8-5d85-4827-af57-e7e043da5ac4"
       },
-      "backgroundEffect": "bottom"
+      "backgroundEffect": "both"
     },
     {
       "__resolveType": "site/sections/TextWithImage.tsx",
