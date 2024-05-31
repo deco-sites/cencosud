@@ -19,6 +19,9 @@ export default {
       screens: {
         ss: "479px",
       },
+      backgroundImage: {
+        "textwithimage": "url('/bg-top.png')",
+      },
       fontFamily: {
         opensans: ["Open Sans", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
