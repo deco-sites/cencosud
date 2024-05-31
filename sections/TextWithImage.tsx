@@ -24,15 +24,20 @@ interface Props {
         buttonUrl?: string;
     }
     backgroundEffect?: "top" | "bottom" | "both";
+    /**
+ * @description Defines if there will be a space padding at top and bottom of the content
+ * @default false
+ */
+    spacingTopBot?: boolean;
 }
 
-function TextWithImage({ title, subtitle, content, textMobile, image, imageReverse, showButton, button, backgroundEffect }: Props) {
+function TextWithImage({ title, subtitle, content, textMobile, image, imageReverse, showButton, button, backgroundEffect, spacingTopBot }: Props) {
     return (
         <>{(backgroundEffect === "top" || backgroundEffect === "both") && (
             <div class="bg-textwithimage bg-no-repeat bg-top-center bg-cover bg-[#F3F6FE] h-[150px]"></div>
         )}
-            <div class="bg-primary-content pt-[60px] relative">
-                <div class={`px-[33px] lg:px-0 mx-auto min-h-[100vh] max-w-[550px] footer-container flex ${imageReverse ? 'flex-col-reverse md:flex-row-reverse' : 'flex-col md:flex-row'}  justify-center md:justify-between md:items-center`}>
+            <div class={`bg-primary-content ${spacingTopBot ? "py-[60px]" : ''} relative`}>
+                <div class={`px-[33px] lg:px-0 mx-auto max-w-[550px] footer-container flex ${imageReverse ? 'flex-col-reverse md:flex-row-reverse' : 'flex-col md:flex-row'}  justify-center md:justify-between md:items-center`}>
                     {showButton && <a href={button?.buttonUrl} class="flex md:hidden justify-end items-center mr-auto max-w-[171px] min-w-[171px] mt-5 md:mt-10 mb-[20px] text-[18px] font-opensans font-bold py-[8px] px-5 text-info-content border-info-content border-2 border-solid">{button?.buttonText}
                         <Icon
                             class="ml-[20px]"
