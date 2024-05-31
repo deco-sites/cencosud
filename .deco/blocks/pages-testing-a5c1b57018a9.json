@@ -65,6 +65,32 @@
       "backgroundEffect": "both"
     },
     {
+      "__resolveType": "site/sections/Information.tsx",
+      "ContentProps": [
+        {
+          "symbol": "$",
+          "number": 14,
+          "last": "B",
+          "text": "Ventas 2021"
+        },
+        {
+          "symbol": "+",
+          "number": 20,
+          "last": "M",
+          "text": "Clientes"
+        },
+        {
+          "symbol": "+",
+          "number": 1200,
+          "text": "Tiendas"
+        },
+        {
+          "number": 7,
+          "text": "Países"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/TextWithImage.tsx",
       "title": "CONTÁCTANOS",
       "subtitle": "¿Quieres acelerar el futuro del retail?",
@@ -79,32 +105,9 @@
         "buttonText": "Contáctanos"
       },
       "showButton": true,
-      "backgroundEffect": "top"
-    },
-    {
-      "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Click here to tweak this text however you want.</p>",
-      "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-    },
-    {
-      "__resolveType": "site/sections/Logos.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
-    },
-    {
-      "__resolveType": "site/sections/BlogPosts.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Testimonials.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Faq.tsx"
+      "backgroundEffect": "top",
+      "spacingTop": true,
+      "spacingTopBot": true
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
