@@ -1,0 +1,69 @@
+{
+  "name": "contacto",
+  "path": "/contacto",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Quiénes Somos"
+          },
+          {
+            "label": "Equipo"
+          },
+          {
+            "label": "FAQ",
+            "url": "/faq"
+          },
+          {
+            "label": "Contacto",
+            "url": "/contacto"
+          }
+        ],
+        "buttons": []
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/4c422e3f-6dec-471f-99d3-0879a55bb6bf",
+        "alt": "Logo cencosud"
+      }
+    },
+    {
+      "__resolveType": "site/sections/BannerText.tsx",
+      "title": "Aceleremos el futuro del retail",
+      "subtitle": "Escríbenos a través del siguiente formulario y nos pondremos en contacto contigo. "
+    },
+    {
+      "__resolveType": "site/sections/TextWithImage.tsx",
+      "title": "CONTÁCTANOS",
+      "subtitle": "¿Quieres acelerar el futuro del retail?",
+      "content": "Escríbenos a través del siguiente formulario y nos pondremos en contacto contigo. ",
+      "image": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/c693e617-ad19-4bfe-88ce-a021ff0c7cea"
+      },
+      "imageReverse": true,
+      "textMobile": "left",
+      "button": {
+        "buttonUrl": "/contact",
+        "buttonText": "Contáctanos"
+      },
+      "showButton": true,
+      "spacingTop": true,
+      "spacingTopBot": true
+    },
+    {
+      "__resolveType": "Footerall"
+    },
+    {
+      "__resolveType": "Theme all"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
