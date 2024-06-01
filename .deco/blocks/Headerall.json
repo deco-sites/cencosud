@@ -1,0 +1,28 @@
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Quiénes Somos"
+      },
+      {
+        "label": "Equipo"
+      },
+      {
+        "label": "FAQ"
+      },
+      {
+        "label": "Contacto"
+      }
+    ],
+    "buttons": []
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/4c422e3f-6dec-471f-99d3-0879a55bb6bf",
+    "alt": "Logo cencosud"
+  }
+}

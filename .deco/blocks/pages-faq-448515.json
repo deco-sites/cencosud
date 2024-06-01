@@ -1,0 +1,136 @@
+{
+  "name": "faq",
+  "path": "/faq",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Quiénes Somos"
+          },
+          {
+            "label": "Equipo"
+          },
+          {
+            "label": "FAQ",
+            "url": "/faq"
+          },
+          {
+            "label": "Contacto",
+            "url": "/contacto"
+          }
+        ],
+        "buttons": []
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/4c422e3f-6dec-471f-99d3-0879a55bb6bf",
+        "alt": "Logo cencosud"
+      }
+    },
+    {
+      "__resolveType": "site/sections/BannerText.tsx",
+      "title": "FAQ",
+      "subtitle": "Hemos recopilado varias preguntas que recibimos con frecuencia de los founders. ",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/ba8c9504-bdfc-4bea-9594-cc322811ffc3",
+      "alt": "background banner principal"
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "questions": [
+        {
+          "title": "¿En qué etapas invertimos?",
+          "answer": "<p>Evaluamos cada oportunidad de inversión dependiendo del retorno estratégico entre esa startup y Cencosud. Tentativamente nos acomoda participar startups en etapa temprana, desde Semilla a Serie A+, pudiendo hacer 'follow ons' en rondas sucesivas</p>"
+        },
+        {
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Cuánto antes te conozcamos, mejor.</span><br><span style=\"color: rgb(0, 0, 0)\">Buscamos desarrollar relaciones sólidas y duraderas para ambas partes.</span><br><br><span style=\"color: rgb(0, 0, 0)\">Generalmente, nos invitan a invertir cuando dimensionamos líneas de trabajo conjunto factibles.</span></p>",
+          "title": "¿Cuándo es el momento adecuado para invitar a Cencosud Ventures a invertir en tu startup?"
+        },
+        {
+          "title": "¿Cencosud Ventures invierte en startups donde participen inversionistas ángeles?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Si. Nos encantaría conocerles y entender por qué ya alguien confió en vosotros.</span></p>"
+        },
+        {
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Entre 300 K USD a 5 M USD. El ticket depende más del tamaño de la ronda y el porcentaje disponible.</span></p>",
+          "title": "¿En qué rango se ubica el ticket de inversión?"
+        },
+        {
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Si, siempre que estemos convencidos de que es un buen negocio para ambos.</span></p>",
+          "title": "¿Cencosud Ventures invierte en rondas sucesivas en las startups de su portafolio?"
+        },
+        {
+          "title": "Número de inversiones al año.",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Entre 2 y 4 inversiones al año, pero dependerá más de la calidad de los proyectos y la dimensión del negocio conjunto.</span></p>"
+        },
+        {
+          "title": "¿Cencosud Ventures lidera rondas de levantamiento de capital?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Podríamos hacerlo en etapas más tempranas, pero en Series A y A+ recomendamos balancear los inversionistas que acudan a tu ronda, donde existan estratégicos como nosotros.</span></p>"
+        },
+        {
+          "title": "¿Existe una prioridad de foco en alguna industria o sector específico?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Principalmente en los espacios de:</span><br><span style=\"color: rgb(0, 0, 0)\">Servicios al retail, Futuro del Comercio, Logística y cadena de suministro y FinTech.</span><br><br><span style=\"color: rgb(0, 0, 0)\">Si consideras que tu startup no entra en estas verticales pero existe una relación estratégica, comentanoslo y te daremos feedback.</span></p>"
+        },
+        {
+          "title": "¿Cuáles son los criterios de inversión?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Invertimos en equipos fundadores con visiones ambiciosas y claras. Generalmente resuelven problemas o generan capacidades a retails como nosotros.</span><br><br><span style=\"color: rgb(0, 0, 0)\">Pueden ser equipos grandes o pequeños pero tienen que tener un producto y servicio tecnológico en el mercado con testimoniales extraordinarios de sus clientes.</span></p>"
+        },
+        {
+          "title": "¿Firmamos NDA?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Nosotros como CVC no.</span><br><span style=\"color: rgb(0, 0, 0)\">No obstante, nuestras unidades de negocio si lo evalúan si lo requieres.</span></p>"
+        },
+        {
+          "title": "¿Cuál es la cobertura geográfica de inversión?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Invertimos en startups que quieran abrir operaciones en Latam. Específicamente Brasil, Argentina, Chile, Perú y Colombia. Y recientemente en el sureste de USA.</span></p>"
+        },
+        {
+          "title": "¿Cuánto demora el proceso de inversión y vinculación con startups?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Por lo general, no es menos de un mes.</span><br><br><span style=\"color: rgb(0, 0, 0)\">Buscamos desarrollar relaciones sólidas, por eso, si ya trabajamos juntos y tenemos un plan de crecimiento conjunto, la inversión es mucho más rápida.</span><br><br><span style=\"color: rgb(0, 0, 0)\">Siempre seremos transparentes en nuestros tiempos.</span></p>"
+        },
+        {
+          "title": "¿En qué nos diferenciamos frente a otros CVCs?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Foco extremo en plataforma.</span><br><br><span style=\"color: rgb(0, 0, 0)\">Si no estamos convencidos de que podemos hacerte crecer, no invertimos.</span><br><br><span style=\"color: rgb(0, 0, 0)\">Nuestra propuesta de valor está fundamentada en el relacionamiento con los gerentes de las banderas y países para poder escalar tu innovación con nosotros.</span><br><br><span style=\"color: rgb(0, 0, 0)\">Hacemos un trabajo muy intenso en posicionar tu empresa al frente de nuestras unidades y líderes.</span><br><br><span style=\"color: rgb(0, 0, 0)\">Co-creamos KPIs con el negocio para asegurar la vinculación entre la startup y la corporación.</span></p>"
+        },
+        {
+          "title": "¿Qué es Cencosud?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">Cencosud S.A. es una Compañía con presencia en cinco países de América Latina (Chile, Argentina, Brasil, Perú y Colombia), en Estados Unidos y en China -con una oficina comercial-, cuyas operaciones se extienden a través de diferentes líneas de negocio: Supermercados, Mejoramiento del Hogar, Tiendas por Departamento, Centros Comerciales y Servicios Financieros (con un Joint Venture en casi todos los países).</span><br><br><span style=\"color: rgb(0, 0, 0)\">Producto de su estrategia multiformato, es una de las Compañías más diversificadas del Cono Sur y con la mayor oferta de metros cuadrados, tanto de sala de venta, en el caso de Retail, como de GLA, en el caso de Centros Comerciales, alcanzando un mercado potencial de más de 380 millones de habitantes.</span></p>"
+        },
+        {
+          "title": "¿Cencosud Ventures tiene un fondo estructurado?",
+          "answer": "<p><span style=\"color: rgb(0, 0, 0)\">No. Cencosud Ventures invierte directamente desde el balance corporativo.</span></p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/TextWithImage.tsx",
+      "title": "CONTÁCTANOS",
+      "subtitle": "¿Quieres acelerar el futuro del retail?",
+      "content": "Escríbenos a través del siguiente formulario y nos pondremos en contacto contigo. ",
+      "image": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/c693e617-ad19-4bfe-88ce-a021ff0c7cea"
+      },
+      "imageReverse": true,
+      "textMobile": "left",
+      "button": {
+        "buttonUrl": "/contact",
+        "buttonText": "Contáctanos"
+      },
+      "showButton": true,
+      "spacingTop": true,
+      "spacingTopBot": true
+    },
+    {
+      "__resolveType": "Footerall"
+    },
+    {
+      "__resolveType": "Theme all"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

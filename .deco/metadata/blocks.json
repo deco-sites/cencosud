@@ -100,5 +100,33 @@
   "/.deco/blocks/Footer.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Footer.tsx"
+  },
+  "/.deco/blocks/pages-contacto-506220.json": {
+    "name": "contacto",
+    "path": "/contacto",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Headerall.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Header.tsx"
+  },
+  "/.deco/blocks/Footerall.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Footer.tsx"
+  },
+  "/.deco/blocks/Theme%20all.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/pages-faq-448515.json": {
+    "name": "faq",
+    "path": "/faq",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Text%20contactanos.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/TextWithImage.tsx"
   }
 }
