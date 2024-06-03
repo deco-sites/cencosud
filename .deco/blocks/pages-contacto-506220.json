@@ -11,10 +11,12 @@
             "url": "/"
           },
           {
-            "label": "Quiénes Somos"
+            "label": "Quiénes Somos",
+            "url": "/about-offer"
           },
           {
-            "label": "Equipo"
+            "label": "Equipo",
+            "url": "/equipo"
           },
           {
             "label": "FAQ",

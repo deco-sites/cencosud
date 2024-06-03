@@ -40,11 +40,7 @@ export default function BlogPosts({
         },
     ],
 }: Props) {
-    const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-    const handleToggle = (index: number) => {
-        setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
-    };
     return (
         <>
             <style
@@ -82,9 +78,6 @@ export default function BlogPosts({
                     <div className="flex-auto border-l-[1px] border-solid border-[rgba(0,0,0,.08)]">
                         {questions?.map((question, index) => (
                             <details
-                                key={index}
-                                open={index === openIndex}
-                                onClick={() => handleToggle(index)}
                                 className=""
                             >
                                 <summary className="text-lg text-secondary font-semibold cursor-pointer py-5 flex">
@@ -116,6 +109,19 @@ export default function BlogPosts({
                     </div>
                 </div>
             </div>
+            <script dangerouslySetInnerHTML={{
+                __html: `
+           const details = document.querySelectorAll("details");
+           
+           details.forEach((targetDetail) => {
+             targetDetail.addEventListener("click", () => {
+               details.forEach((detail) => {
+                 if (detail !== targetDetail) {
+                   detail.removeAttribute("open");
+                 }
+               });
+             });
+           });`}}></script>
         </>
     );
 }

@@ -128,5 +128,17 @@
   "/.deco/blocks/Text%20contactanos.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/TextWithImage.tsx"
+  },
+  "/.deco/blocks/pages-My%2520New%2520Page-795130.json": {
+    "name": "quienes somos",
+    "path": "/about-offer",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-equipo-914216.json": {
+    "name": "equipo",
+    "path": "/equipo",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
