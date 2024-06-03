@@ -1,0 +1,200 @@
+{
+  "name": "equipo",
+  "path": "/equipo",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Quiénes Somos",
+            "url": "/about-offer"
+          },
+          {
+            "label": "Equipo",
+            "url": "/equipo"
+          },
+          {
+            "label": "FAQ"
+          },
+          {
+            "label": "Contacto"
+          }
+        ],
+        "buttons": []
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/4c422e3f-6dec-471f-99d3-0879a55bb6bf",
+        "alt": "Logo cencosud"
+      }
+    },
+    {
+      "__resolveType": "site/sections/TextWithImage.tsx",
+      "title": "EQUIPO",
+      "subtitle": "Los mejores socios para apoyar el crecimiento de tu compañía",
+      "content": "Nuestros equipos y plataformas combinan perfiles emprendedores y metodologías Startup para escalar tu innovación dentro de Cencosud. ",
+      "image": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/a72d0482-495b-4ef7-9859-7763a425c390",
+        "imageMarginBotDesktop": "-77px",
+        "width": 440
+      },
+      "imageReverse": false,
+      "textMobile": "left",
+      "spacingTopBot": false,
+      "paddingTop": "70px",
+      "name": "José Antonio Pascual del Valle",
+      "position": "Head of Cencosud Ventures",
+      "linkedin": "https://www.linkedin.com/in/pepepascual/"
+    },
+    {
+      "__resolveType": "site/sections/Equipo.tsx",
+      "title": "Equipo CVC",
+      "equipo": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/fd6284b0-4ba7-432b-b7d2-a403293bb23f",
+          "title": "Barham Madain",
+          "subtitle": "Portfolio Man",
+          "linkedin": "https://www.linkedin.com/in/barham-madain-2884a019/"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/1aad0a4d-d32c-4b37-9a7e-9a2fa61d46cc",
+          "title": "Pedro Vicuña",
+          "subtitle": "Scouting Manager",
+          "linkedin": "https://www.linkedin.com/in/pvicunaz/"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/c98af3f1-9bdb-4d39-8c06-84377a3ad2b9",
+          "linkedin": "https://www.linkedin.com/in/sebastianfernandezprat/",
+          "title": "Sebastián Fernández",
+          "subtitle": "Program Manager"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/8e140cf5-2b7b-49f9-aa5c-d0f7053cf5a5",
+          "title": "Franco Iovi",
+          "subtitle": "Growth Manager",
+          "linkedin": "https://www.linkedin.com/in/franco-iovi-vollbrecht-882a235a/"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/7ec444a5-14e0-4d05-9bfb-b6c3f411ceb2",
+          "title": "José Espinoza",
+          "subtitle": "Growth Lead",
+          "linkedin": "https://www.linkedin.com/in/jiespinozaquintero/"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/2b336621-88f8-4bea-b0e9-94cb1d2f2cc8",
+          "title": "Nicolás Terrazas",
+          "subtitle": "Growth Lead",
+          "linkedin": "https://www.linkedin.com/in/davidnterrazas/"
+        },
+        {
+          "linkedin": "https://www.linkedin.com/in/pedroiriberry/",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/8e8fe649-4820-4cc4-83b0-202885f0017f",
+          "title": "Pedro Iriberry",
+          "subtitle": "Venture Fellow"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/d6ceb3de-82db-4aaf-9a7d-4b5fc9e677e0",
+          "linkedin": "https://www.linkedin.com/in/raimundo-lalanne-a82377114/",
+          "title": "Raimundo Lalanne",
+          "subtitle": "Venture Fellow"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/TextWithImage.tsx",
+      "title": "NEW VENTURES",
+      "image": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/3c8a0ae6-8cac-4b78-b36b-144500e88054"
+      },
+      "subtitle": "Somos la fábrica de startups",
+      "content": "Distingue y atrae talentos capaces de desarrollar startups al alero de Cencosud. Si tienes un modelo de negocio de alto potencial, te ayudamos a validarlo con nuestra metodología.",
+      "name": "Bárbara Jugo",
+      "position": "Portfolio Manager",
+      "linkedin": "https://www.linkedin.com/in/b%C3%A1rbara-jugo-s%C3%A1nchez-13982751/",
+      "backgroundEffect": "top",
+      "imageReverse": true
+    },
+    {
+      "__resolveType": "site/sections/Equipo.tsx",
+      "title": "Equipo New Ventures",
+      "equipo": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/d51fcc84-0b4e-4e87-855c-ed4e50747e88",
+          "title": "Apolo Pino",
+          "subtitle": "Operations &  Methodology",
+          "linkedin": "https://www.linkedin.com/in/apolopinov/"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/6e5b3bb1-b341-4b18-b805-236ee34f32dc",
+          "title": "Francisco Calleja",
+          "subtitle": "Marketing Manager & product UX",
+          "linkedin": "http://www.linkedin.com/in/francisco-calleja-pollmann-66795654"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/740f0b13-7fc3-4223-948f-01e0f9ce7a73",
+          "linkedin": "https://www.linkedin.com/in/gary-velasquez-55537545/",
+          "title": "Gary Velasquez",
+          "subtitle": "Engineering Manager"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/eab2fd40-38f8-4a7f-8695-7c86564a87dd",
+          "title": "Nicolás Maragaño​",
+          "subtitle": "Business Analyst",
+          "linkedin": "https://www.linkedin.com/in/nicolas-maraga%C3%B1o-b9367b153/"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/ae849582-b861-438e-ad4c-42a9a68d6bb3",
+          "title": "Josefa Villanueva",
+          "subtitle": "Founder in residence",
+          "linkedin": "https://www.linkedin.com/in/josefa-villanueva-875b82b1/?originalSubdomain=cl"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/6c65a873-1489-4bfc-82d7-280f2cd62b98",
+          "title": "Raimundo Sobral",
+          "subtitle": "Founder in residence",
+          "linkedin": "https://www.linkedin.com/in/raimundosobral/"
+        },
+        {
+          "linkedin": "https://www.linkedin.com/in/christiancarrillo/",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/80be74df-5bc5-45e2-bca7-16e6613597d5",
+          "title": "Christian Carrillo",
+          "subtitle": "Founder in residence"
+        }
+      ],
+      "backgroundEffect": "bottom"
+    },
+    {
+      "__resolveType": "site/sections/TextWithImage.tsx",
+      "title": "CONTÁCTANOS",
+      "subtitle": "¿Quieres acelerar el futuro del retail?",
+      "content": "Escríbenos a través del siguiente formulario y nos pondremos en contacto contigo. ",
+      "image": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/c693e617-ad19-4bfe-88ce-a021ff0c7cea"
+      },
+      "imageReverse": true,
+      "textMobile": "left",
+      "button": {
+        "buttonUrl": "/contact",
+        "buttonText": "Contáctanos"
+      },
+      "showButton": true,
+      "spacingTop": true,
+      "spacingTopBot": true,
+      "containerColor": "#FFFFFF"
+    },
+    {
+      "__resolveType": "Footerall"
+    },
+    {
+      "__resolveType": "Theme all"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

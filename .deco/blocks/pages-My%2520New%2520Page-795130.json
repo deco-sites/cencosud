@@ -1,0 +1,93 @@
+{
+  "name": "quienes somos",
+  "path": "/about-offer",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Quiénes Somos",
+            "url": "/about-offer"
+          },
+          {
+            "label": "Equipo"
+          },
+          {
+            "label": "FAQ"
+          },
+          {
+            "label": "Contacto"
+          }
+        ],
+        "buttons": []
+      },
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/4c422e3f-6dec-471f-99d3-0879a55bb6bf",
+        "alt": "Logo cencosud"
+      }
+    },
+    {
+      "__resolveType": "site/sections/TextWithImage.tsx",
+      "title": "QUIÉNES SOMOS",
+      "subtitle": "La unidad de corporate venturing  de Cencosud",
+      "image": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/1a34f6d9-d63a-4c90-b7a8-3a9aee9b1447"
+      },
+      "minHeight": "100vh"
+    },
+    {
+      "__resolveType": "site/sections/TextWithImage.tsx",
+      "image": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/abe33e2b-ec56-4adf-867b-f692adb968b1"
+      },
+      "title": "QUÉ HACEMOS",
+      "subtitle": "Invertimos en startups para acelerar el futuro del retail",
+      "content": "Captamos innovaciones que aceleren y desafíen al retail actual, generando nuevas capacidades y propuestas de valor.",
+      "imageReverse": true,
+      "spacingTopBot": true,
+      "containerColor": "#FFFFFF"
+    },
+    {
+      "__resolveType": "site/sections/TextPlusImages.tsx",
+      "content": "Cencosud Ventures invierte en etapas tempranas, desde semilla hasta series A+ en áreas clave como:",
+      "subtitle": "Startups en crecimiento",
+      "title": "DÓNDE INVERTIMOS",
+      "images": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/ba53c378-62a6-4169-bf9b-41b36aa1448f",
+          "text": "Servicios al retail"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/48814b3d-8808-4a5b-9f80-fdf8c63762ba",
+          "text": "Fintech"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/47db683a-d7c4-48e3-9621-75da09b4b501",
+          "text": "Futuro del Comercio"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/dfb0cffe-8f96-4312-894a-0758981d2e31",
+          "text": "Logística y cadena de suministro"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Text contactanos"
+    },
+    {
+      "__resolveType": "Footerall"
+    },
+    {
+      "__resolveType": "Theme all"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
