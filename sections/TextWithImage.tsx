@@ -11,6 +11,8 @@ interface Props {
     containerColor?: string;
     title?: string;
     subtitle?: string;
+    subtitleFontSizeDesktop?: string;
+    subtitleFontSpacingDesktop?: string;
     content?: string;
     name?: string;
     position?: string;
@@ -23,6 +25,7 @@ interface Props {
         image?: ImageWidget;
         alt?: string;
         width?: number;
+        maxHeight?: number;
         imageMarginBotMobile?: string;
         imageMarginBotDesktop?: string;
     }
@@ -41,6 +44,10 @@ interface Props {
     }
     backgroundEffect?: "top" | "bottom" | "both";
     /**
+* @default false
+*/
+    invertBackgroundSide?: boolean;
+    /**
  * @description Defines if there will be a space padding at top and bottom of the content
  * @default false
  */
@@ -49,11 +56,11 @@ interface Props {
     paddingTop?: string;
 }
 
-function TextWithImage({ containerColor, title, subtitle, content, name, position, linkedin, textMobile, image, imageReverse, showButton, button, backgroundEffect, spacingTopBot, minHeight, paddingTop }: Props) {
+function TextWithImage({ containerColor, title, subtitle, subtitleFontSizeDesktop, subtitleFontSpacingDesktop, content, name, position, linkedin, textMobile, image, imageReverse, showButton, button, backgroundEffect, invertBackgroundSide, spacingTopBot, minHeight, paddingTop }: Props) {
     return (
         <>
             {(backgroundEffect === "top" || backgroundEffect === "both") && (
-                <div class="bg-textwithimage bg-no-repeat bg-top-center bg-cover bg-[#F3F6FE] h-[150px]"></div>
+                <div class={`bg-textwithimage bg-no-repeat bg-top-center bg-cover bg-[#F3F6FE] h-[150px] ${invertBackgroundSide ? "rotate-180" : ''}`}></div>
             )}
             <div style={{
                 backgroundColor: containerColor,
@@ -67,8 +74,8 @@ function TextWithImage({ containerColor, title, subtitle, content, name, positio
                             id="ChevronRight"
                             strokeWidth={1} /></a>}
                     <div class={`lg:w-[50%] ${textMobile === "left" ? 'text-left' : 'text-center'} md:text-left`}>
-                        <h5 class="text-[21px] text-secondary font-montserrat font-bold mb-[15px]">{title}</h5>
-                        <h3 class="text-[24px] ss:text-[30px] lg:text-[40px] lg:leading-[50px] text-secondary font-montserrat font-bold mb-[15px] leading-[38px] tracking-[0px]">{subtitle}</h3>
+                        <h5 class={`text-[21px] text-secondary font-montserrat font-bold mb-[15px]`}>{title}</h5>
+                        <h3 class={`text-[24px] ss:text-[30px] lg:text-[40px] lg:text-[${subtitleFontSizeDesktop}] lg:leading-[50px] lg:leading-[${subtitleFontSpacingDesktop}] text-secondary font-montserrat font-bold mb-[15px] leading-[38px] tracking-[0px]`}>{subtitle}</h3>
                         <p class="text-[13px] lg:text-[16px] lg:leading-[28px] text-secondary font-montserrat leading-[21px] mb-[15px] tracking-[0px]">{content}</p>
                         {name && position && <h6 class="text-secondary text-[13px] lg:text-[14px] mb-[15px]"><b>{name}</b><br />{position}</h6>}
                         {linkedin && <a class="bg-secondary p-[8px] inline-block" href={linkedin}><Icon class="fill-white" id="MiniLinkedin" size={15} /></a>}
@@ -83,7 +90,7 @@ function TextWithImage({ containerColor, title, subtitle, content, name, positio
                     {image &&
                         <Image
                             width={image.width || 556}
-                            class={`ss:max-w-[484px] md:max-w-[330px] md:max-h-[318px] lg:max-w-[446px] lg:max-h-[391px] xl:max-w-[556px] xl:max-h-[488px] mb-[${image.imageMarginBotMobile}] lg:mb-[${image.imageMarginBotDesktop}]`}
+                            class={`ss:max-w-[484px] md:max-w-[330px] md:max-h-[318px] lg:max-w-[446px] lg:max-h-[391px] xl:max-w-[556px] xl:max-h-[488px] xl:max-h-[${image.maxHeight}px] mb-[${image.imageMarginBotMobile}] lg:mb-[${image.imageMarginBotDesktop}]`}
                             src={image.image}
                             alt={image.alt}
                             decoding="async"
@@ -92,7 +99,7 @@ function TextWithImage({ containerColor, title, subtitle, content, name, positio
                 </div>
             </div>
             {(backgroundEffect === "bottom" || backgroundEffect === "both") && (
-                <div class="bg-textwithimage bg-no-repeat bg-top-center bg-cover bg-[#F3F6FE] h-[150px] rotate-180"></div>
+                <div class={`bg-textwithimage bg-no-repeat bg-top-center bg-cover bg-[#F3F6FE] h-[150px] ${invertBackgroundSide ? '' : "rotate-180"}`}></div>
             )}</>
     )
 }
