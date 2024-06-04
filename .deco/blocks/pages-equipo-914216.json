@@ -19,10 +19,12 @@
             "url": "/equipo"
           },
           {
-            "label": "FAQ"
+            "label": "FAQ",
+            "url": "/faq"
           },
           {
-            "label": "Contacto"
+            "label": "Contacto",
+            "url": "/contacto"
           }
         ],
         "buttons": []
@@ -165,7 +167,8 @@
           "subtitle": "Founder in residence"
         }
       ],
-      "backgroundEffect": "bottom"
+      "backgroundEffect": "bottom",
+      "invertBackgroundSide": true
     },
     {
       "__resolveType": "site/sections/TextWithImage.tsx",
@@ -184,7 +187,9 @@
       "showButton": true,
       "spacingTop": true,
       "spacingTopBot": true,
-      "containerColor": "#FFFFFF"
+      "containerColor": "#FFFFFF",
+      "backgroundEffect": "top",
+      "invertBackgroundSide": true
     },
     {
       "__resolveType": "Footerall"

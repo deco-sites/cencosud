@@ -15,13 +15,16 @@
             "url": "/about-offer"
           },
           {
-            "label": "Equipo"
+            "label": "Equipo",
+            "url": "/equipo"
           },
           {
-            "label": "FAQ"
+            "label": "FAQ",
+            "url": "/faq"
           },
           {
-            "label": "Contacto"
+            "label": "Contacto",
+            "url": "/contacto"
           }
         ],
         "buttons": []
@@ -36,9 +39,12 @@
       "title": "QUIÉNES SOMOS",
       "subtitle": "La unidad de corporate venturing  de Cencosud",
       "image": {
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/1a34f6d9-d63a-4c90-b7a8-3a9aee9b1447"
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10549/1a34f6d9-d63a-4c90-b7a8-3a9aee9b1447",
+        "maxHeight": 565
       },
-      "minHeight": "100vh"
+      "minHeight": "100vh",
+      "subtitleFontSizeDesktop": "60px",
+      "subtitleFontSpacingDesktop": "70px"
     },
     {
       "__resolveType": "site/sections/TextWithImage.tsx",
